@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Selu383.SP24.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/hotels")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
